@@ -1,0 +1,169 @@
+body {
+    margin:0px;
+}
+
+
+.maindiv {
+    
+}
+
+
+
+/* 
+================================
+         Header Settings
+================================
+*/
+.header {
+    
+}
+/**********Top Bar****************/
+.topBar {
+    /*border: thin solid #737373;*/
+    padding:0px;
+    margin: 0px;
+    height: 50px;
+    /*background-color: #CCCCCC;*/
+}
+/**********Sign In****************/
+.SignIn {
+    text-align: center;
+    vertical-align: central;
+    height: 25px;
+    float: right;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #808080;
+    color: #FFFFFF;
+    width: 75px;
+    font-weight: bold;
+}
+    /*.SignIn a {
+        text-decoration:none;
+        color:#FFFFFF;
+    }
+        .SignIn:hover {
+    color: #FF9900;
+}
+    .SignIn a:active {
+        text-decoration:none;
+        color:#FFFFFF;
+    }*/
+a {
+    color:white;
+}
+     a:visited:hover {
+            color:white;
+    }
+/**********Sign Out****************/
+.SignOut {
+    text-align: center;
+    vertical-align: central;
+    height: 25px;
+    float: right;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #808080;
+    color: #FFFFFF;
+    width: 75px;
+    font-weight: bold;
+}
+/*********RSS BAR********/
+.rssBar {
+    padding: 3px 20px 3px 20px;
+    background-color: #666666;
+    color: #FFFFFF;
+    text-align: right;
+    height: 25px;
+}
+
+
+/*********Main Title Logo Bar**********/
+.titleBar {
+    background-color: #808080;
+    color: #CCCCCC;
+    padding-left: 250px;
+    padding-top: 2px;
+    height: 75px;
+}
+.searchBar {
+    margin-top: 50px;
+    margin-right: 25px;
+    float: right;
+    background-color: #808080;
+    height: 25px;
+}
+.searchInner {
+    padding-left:2px;
+    border-style: dotted;
+    border-radius:25px;
+    width: 250px;
+    background-color: #808080;
+}
+    #searchText {
+        color:#CCCCCC;
+        padding-left:5px;
+    border-style: hidden;
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+    width: 175px;
+}
+
+        #searchText:focus {
+    background-color: #edd8d8;
+}
+
+#searchButton {
+        color:#CCCCCC;
+    border-style: hidden;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    width:68px;
+}
+    #searchButton:hover {
+    background-color: #ff6a00;
+    color:white;
+    }
+
+
+
+/* 
+     End Header Settings
+--------------------------------
+*/
+
+/* 
+================================
+         Footer Settings
+================================
+*/
+
+.footer {
+    height:200px;
+    background-color:#808080;
+    color:white;
+    text-align:center;
+}
+
+.latestNews {
+    text-align:justify;
+    width:24%;
+    float:left;
+}
+
+.latestDiscussion {
+    float:left;
+    width:24%;
+}
+
+.BestPick {
+    float:left;
+    width:24%;
+}
+.contactUs {
+    width:25%;
+    float:left;
+}
+/*
+    -----------------------------
+    */
